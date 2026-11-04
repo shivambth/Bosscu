@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#21130f">
+  <meta name="description" content="Sebuah buku kecil tentang Shivam dan Aira — empat bulan yang berarti.">
+  <title>Untuk Aira — My Favourite Chapter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><span>♡</span><span>✦</span><span>♡</span><span>✧</span><span>♡</span></div>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">♡</span><span>SHIVAM <i>&</i> AIRA</span></div>
+    <div class="top-meta"><span class="edition">FOUR MONTHS EDITION</span><span id="topPage">COVER</span></div>
+  </header>
+
+  <main class="stage">
+    <section class="book-shell" aria-label="Buku digital untuk Aira">
+      <div class="book-spine"></div>
+      <div class="book" id="book">
+        <div class="book-page" id="pageSurface">
+          <div class="paper-grain"></div>
+          <div class="page-content" id="pageContent"></div>
+          <div class="page-footer"><span id="pageSection">A LITTLE BOOK OF US</span><span id="pageNumber">01 / 160</span></div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="controls" aria-label="Navigasi halaman">
+      <button class="nav-btn" id="prevBtn" type="button" aria-label="Halaman sebelumnya">←</button>
+      <div class="progress-wrap"><div class="progress-track"><div id="progressBar"></div></div><span id="progressText">Sampul · 160 halaman</span></div>
+      <button class="nav-btn next" id="nextBtn" type="button" aria-label="Halaman berikutnya">→</button>
+    </nav>
+    <div class="hint">Geser halaman · gunakan tombol · atau ketuk sisi buku</div>
+  </main>
+
+  <footer class="site-foot"><span>DIBUAT DENGAN SEPENUH HATI</span><span>06 · 07 · 2026 — SELAMANYA DI CERITA KITA</span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
